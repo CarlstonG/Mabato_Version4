@@ -33,5 +33,16 @@ namespace Mabato_V4.Properties {
                 return ((string)(this["DatabaseMBConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\bin\\Debug\\Dat" +
+            "abaseMB.mdf;Integrated Security=True")]
+        public string StudentsData {
+            get {
+                return ((string)(this["StudentsData"]));
+            }
+        }
     }
 }

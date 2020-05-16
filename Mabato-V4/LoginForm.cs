@@ -49,8 +49,8 @@ namespace Mabato_V4
                 {
 
 
-                    MabatoV4 form1 = new MabatoV4();
-                    form1.Show();
+                    Records form = new Records();
+                    form.Show();
                     this.Hide();
                  
 

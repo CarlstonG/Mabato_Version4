@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace Mabato_V4
 {
 
@@ -25,7 +26,8 @@ namespace Mabato_V4
 
         private void Registration_Load(object sender, EventArgs e)
         {
-
+            txtusername.Focus();
+    
         }
 
         private void materialSingleLineTextField1_Click(object sender, EventArgs e)
@@ -46,7 +48,7 @@ namespace Mabato_V4
 
         private void txtConpass_Click(object sender, EventArgs e)
         {
-
+            // must set focus here
         }
 
         private void btnRegister_Click_1(object sender, EventArgs e)
